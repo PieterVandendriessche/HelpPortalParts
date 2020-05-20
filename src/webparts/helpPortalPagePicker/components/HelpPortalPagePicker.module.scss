@@ -1,0 +1,17 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.helpPortalPagePicker {
+  height: 32px;
+
+  .dropdownButton button {
+    float: var(--floatDirection);
+  }
+
+
+}
+
+.resultRow a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}

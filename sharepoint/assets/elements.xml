@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction Title="NavigationBreadcrumb" Location="ClientSideExtension.ApplicationCustomizer" ClientSideComponentId="4dc827a1-f02f-4bf0-8de6-0cca4280d6bf" ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

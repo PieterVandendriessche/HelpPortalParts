@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "help-portal-page-picker-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helpPortalPagePicker/HelpPortalPagePickerWebPart.js",
+          "manifest": "./src/webparts/helpPortalPagePicker/HelpPortalPagePickerWebPart.manifest.json"
+        }
+      ]
+    },
+    "navigation-breadcrumb-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/navigationBreadcrumb/NavigationBreadcrumbApplicationCustomizer.js",
+          "manifest": "./src/extensions/navigationBreadcrumb/NavigationBreadcrumbApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelpPortalPagePickerWebPartStrings": "lib/webparts/helpPortalPagePicker/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "NavigationBreadcrumbApplicationCustomizerStrings": "lib/extensions/navigationBreadcrumb/loc/{locale}.js"
+  }
+}
